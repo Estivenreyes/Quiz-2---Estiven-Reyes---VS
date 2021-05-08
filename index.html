@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quiz 2 VS</title>
+</head>
+<body>
+    <header>
+        <input id="inputWork" type="text" placeholder="Work description">
+        <button id="btnWork">New Task</button>
+    </header>
+
+    <div id="Container">
+
+        <div id="all">
+            <h1>To do</h1>
+            <div class="List" id="AllContainer"></div>
+        </div>
+
+        <div id="doing">
+            <h1>Doing</h1>
+            <div class="List" id="DoingContainer"></div>
+        </div>
+
+        <div id="done">
+            <h1>Done</h1>
+            <div class="List" id="DoneContainer"></div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD-sK3XtLet4TChKzUjmdWoOitL146bRPI",
+    authDomain: "quiz-2---firebase.firebaseapp.com",
+    projectId: "quiz-2---firebase",
+    storageBucket: "quiz-2---firebase.appspot.com",
+    messagingSenderId: "287645739163",
+    appId: "1:287645739163:web:3722d29d25fc9c6ced3e3e",
+    measurementId: "G-7NR2M0KX2S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>

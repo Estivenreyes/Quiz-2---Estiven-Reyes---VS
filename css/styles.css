@@ -1,0 +1,98 @@
+header{
+
+    display: flex;
+    justify-content: center;
+}
+button{
+
+    width: 100px;
+    height: 40px;
+    background-color: #4471C4;
+    color: white;
+    border: none;
+}
+#container{
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;   
+}
+
+input{
+
+    height: 38px;
+    border: 1px  solid slategray;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+.card {
+    
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    border: 1px solid darkgray;
+    padding: 20px;
+    width: 160px;
+   
+}
+.card p{
+
+    font-size: 12px;
+
+}
+h1{
+
+    background-color: dodgerblue;
+    text-align: center;
+    margin: 20px 0px;
+    width: 100%;
+    
+}
+.List{
+
+    width: 200px;
+ 
+}
+
+.btnDelete{
+
+    background-color: firebrick;
+    color: floralwhite;
+    border: none;
+    width: 20px;
+    height: auto;
+    align-self: flex-end;
+    color: white;
+}
+
+.btnUpload{
+
+    width: 50px;
+    align-self: center;
+    margin: 8px;
+    border: none;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    height: auto;
+
+}
+.btnDown{
+
+    width: 50px;
+    align-self: center;
+    margin: 8px;
+    border: none;
+    background-color: navajowhite;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    height: auto;
+
+
+}
+
